@@ -1,0 +1,520 @@
+[33mWARNING[0m:  [24-11-2024 04:48:21] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [24-11-2024 04:48:21] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [24-11-2024 04:48:21] Starting component System
+[36mDEBUG[0m:    [24-11-2024 04:48:21] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [24-11-2024 04:48:21] Starting component SqliteDB
+[36mDEBUG[0m:    [24-11-2024 04:48:22] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [24-11-2024 04:48:22] Starting component Posthog
+[36mDEBUG[0m:    [24-11-2024 04:48:22] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [24-11-2024 04:48:22] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [24-11-2024 04:48:22] Starting component LocalExecutor
+[36mDEBUG[0m:    [24-11-2024 04:48:22] Starting component SegmentAPI
+[32mINFO[0m:     [24-11-2024 04:48:22] Started server process [[36m10480[0m]
+[32mINFO[0m:     [24-11-2024 04:48:22] Waiting for application startup.
+[32mINFO[0m:     [24-11-2024 04:48:22] Application startup complete.
+[32mINFO[0m:     [24-11-2024 04:48:22] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [24-11-2024 04:53:54] ::1:57655 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 04:53:55] ::1:57656 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 04:53:55] ::1:57656 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 04:53:55] ::1:57655 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 04:53:55] ::1:57655 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 04:56:58] ::1:57706 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 04:56:58] ::1:57707 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 04:56:58] ::1:57707 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 04:56:58] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 04:56:58] ::1:57706 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 04:56:58] ::1:57706 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 04:57:01] ::1:57706 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 04:57:01] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [24-11-2024 04:57:02] ::1:57706 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/add HTTP/1.1" 201
+[32mINFO[0m:     [24-11-2024 05:01:29] ::1:57741 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:01:29] ::1:57742 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:01:29] ::1:57742 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:01:29] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:01:29] ::1:57741 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:01:29] ::1:57741 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:08:01] ::1:57812 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:08:01] ::1:57813 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:08:01] ::1:57813 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:08:01] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:08:01] ::1:57812 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:08:01] ::1:57812 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:09:39] ::1:57849 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:09:39] ::1:57850 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:09:39] ::1:57850 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:09:39] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:09:39] ::1:57849 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:09:39] ::1:57849 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:12:09] ::1:57886 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:12:09] ::1:57887 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:12:09] ::1:57887 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:12:09] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:12:09] ::1:57886 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:12:09] ::1:57886 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:14:50] ::1:57922 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:14:50] ::1:57923 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:14:50] ::1:57923 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:14:50] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:14:50] ::1:57922 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:14:50] ::1:57922 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:16:54] ::1:57953 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:16:54] ::1:57954 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:16:54] ::1:57954 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:16:54] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:16:54] ::1:57953 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:16:54] ::1:57953 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:19:52] ::1:57997 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:19:52] ::1:57998 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:19:52] ::1:57998 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:19:52] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:19:52] ::1:57997 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:19:53] ::1:57997 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:20:09] ::1:58003 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:20:09] ::1:58004 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:20:09] ::1:58004 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:20:09] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:20:09] ::1:58003 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:20:09] ::1:58003 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:23:27] ::1:58042 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:23:27] ::1:58043 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:23:27] ::1:58043 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:23:27] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:23:27] ::1:58042 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:24:58] ::1:58082 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:24:58] ::1:58083 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:24:58] ::1:58083 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:24:58] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:24:58] ::1:58082 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:24:58] ::1:58082 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:25:14] Backing off send_request(...) for 0.1s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+[32mINFO[0m:     [24-11-2024 05:25:25] ::1:58096 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:25:25] ::1:58097 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:25:25] ::1:58097 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:25:25] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:25:25] ::1:58096 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:25:25] ::1:58096 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:25:29] Backing off send_request(...) for 2.0s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+[32mINFO[0m:     [24-11-2024 05:25:46] Backing off send_request(...) for 3.1s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+[31mERROR[0m:    [24-11-2024 05:26:05] Giving up send_request(...) after 4 tries (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+[32mINFO[0m:     [24-11-2024 05:26:21] Backing off send_request(...) for 0.7s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+[32mINFO[0m:     [24-11-2024 05:26:24] ::1:58182 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:26:24] ::1:58183 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:26:24] ::1:58183 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:26:24] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:26:24] ::1:58182 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:26:24] ::1:58182 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:26:40] ::1:58220 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:26:40] ::1:58221 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:26:40] ::1:58222 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:26:40] ::1:58222 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:26:40] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:26:40] ::1:58221 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:26:40] ::1:58221 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:26:57] ::1:58240 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:26:57] ::1:58241 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:26:58] ::1:58242 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:26:58] ::1:58242 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:26:58] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:26:58] ::1:58241 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:26:58] ::1:58241 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:14] ::1:58266 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:14] ::1:58267 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:14] ::1:58268 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:14] ::1:58268 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:27:14] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:27:14] ::1:58267 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:14] ::1:58267 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:29] ::1:58292 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:29] ::1:58293 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:29] ::1:58294 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:29] ::1:58294 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:27:29] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:27:29] ::1:58293 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:29] ::1:58293 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:38] ::1:58313 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:38] ::1:58314 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:38] ::1:58315 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:38] ::1:58315 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:27:38] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:27:38] ::1:58314 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:39] ::1:58314 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:43] ::1:58314 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:44] ::1:58328 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:44] ::1:58329 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:44] ::1:58329 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:27:44] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:27:44] ::1:58328 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:44] ::1:58328 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:52] ::1:58350 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:52] ::1:58351 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:52] ::1:58352 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:52] ::1:58352 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:27:52] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:27:52] ::1:58351 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:52] ::1:58351 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:27:59] ::1:58369 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:00] ::1:58370 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:00] ::1:58371 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:00] ::1:58371 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:28:00] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:28:00] ::1:58370 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:00] ::1:58370 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:10] ::1:58391 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:10] ::1:58392 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:10] ::1:58393 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:10] ::1:58393 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:28:10] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:28:10] ::1:58392 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:10] ::1:58392 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:15] ::1:58392 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:15] ::1:58405 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:15] ::1:58406 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:15] ::1:58406 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:28:15] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:28:15] ::1:58405 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:15] ::1:58405 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:25] ::1:58430 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:25] ::1:58431 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:25] ::1:58432 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:25] ::1:58432 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:28:25] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:28:25] ::1:58431 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:25] ::1:58431 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:36] ::1:58452 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:36] ::1:58453 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:37] ::1:58454 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:37] ::1:58454 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:28:37] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:28:37] ::1:58453 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:37] ::1:58453 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:48] ::1:58475 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:49] ::1:58476 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:49] ::1:58477 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:49] ::1:58477 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:28:49] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:28:49] ::1:58476 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:49] ::1:58476 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:49] ::1:58480 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:49] ::1:58481 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:49] ::1:58481 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:28:49] Collection Fabrics already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:28:49] ::1:58480 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:28:49] ::1:58480 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:29:02] ::1:58498 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/4063e9ea-fbec-4e41-afd9-8b0e777f7cde/query HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:40:26] ::1:58661 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:40:26] ::1:58662 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:40:26] ::1:58662 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:40:26] ::1:58661 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:40:26] ::1:58661 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5741b9e6-a032-46e7-9fb4-12a7377900b9/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:40:35] ::1:58666 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:40:35] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [24-11-2024 05:40:35] ::1:58666 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5741b9e6-a032-46e7-9fb4-12a7377900b9/add HTTP/1.1" 201
+[32mINFO[0m:     [24-11-2024 05:41:25] Shutting down
+[32mINFO[0m:     [24-11-2024 05:41:25] Waiting for application shutdown.
+[36mDEBUG[0m:    [24-11-2024 05:41:25] Stopping component System
+[36mDEBUG[0m:    [24-11-2024 05:41:25] Stopping component SegmentAPI
+[36mDEBUG[0m:    [24-11-2024 05:41:25] Stopping component LocalExecutor
+[36mDEBUG[0m:    [24-11-2024 05:41:25] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [24-11-2024 05:41:25] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [24-11-2024 05:41:25] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [24-11-2024 05:41:25] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [24-11-2024 05:41:25] Stopping component Posthog
+[36mDEBUG[0m:    [24-11-2024 05:41:25] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [24-11-2024 05:41:25] Stopping component SqliteDB
+[36mDEBUG[0m:    [24-11-2024 05:41:25] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [24-11-2024 05:41:25] Application shutdown complete.
+[32mINFO[0m:     [24-11-2024 05:41:25] Finished server process [[36m10480[0m]
+[33mWARNING[0m:  [24-11-2024 05:41:36] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [24-11-2024 05:41:36] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [24-11-2024 05:41:37] Starting component System
+[36mDEBUG[0m:    [24-11-2024 05:41:37] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [24-11-2024 05:41:37] Starting component SqliteDB
+[36mDEBUG[0m:    [24-11-2024 05:41:37] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [24-11-2024 05:41:37] Starting component Posthog
+[36mDEBUG[0m:    [24-11-2024 05:41:37] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [24-11-2024 05:41:37] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [24-11-2024 05:41:37] Starting component LocalExecutor
+[36mDEBUG[0m:    [24-11-2024 05:41:37] Starting component SegmentAPI
+[32mINFO[0m:     [24-11-2024 05:41:37] Started server process [[36m7312[0m]
+[32mINFO[0m:     [24-11-2024 05:41:37] Waiting for application startup.
+[32mINFO[0m:     [24-11-2024 05:41:37] Application startup complete.
+[32mINFO[0m:     [24-11-2024 05:41:37] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [24-11-2024 05:41:59] ::1:58681 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:41:59] ::1:58682 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:41:59] ::1:58682 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:41:59] Collection googlecardb already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:41:59] ::1:58681 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:41:59] ::1:58681 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5741b9e6-a032-46e7-9fb4-12a7377900b9/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:44:50] ::1:58719 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:44:50] ::1:58720 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:44:50] ::1:58720 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:44:50] Collection googlecardb already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:44:50] ::1:58719 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:44:50] ::1:58719 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5741b9e6-a032-46e7-9fb4-12a7377900b9/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:46:30] ::1:58745 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:46:30] ::1:58746 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:46:30] ::1:58746 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:46:30] Collection googlecardb already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:46:30] ::1:58745 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:46:30] ::1:58745 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5741b9e6-a032-46e7-9fb4-12a7377900b9/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:47:05] ::1:58762 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:47:05] ::1:58763 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:47:05] ::1:58763 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:47:05] Collection googlecardb already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:47:05] ::1:58762 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:47:05] ::1:58762 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5741b9e6-a032-46e7-9fb4-12a7377900b9/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:47:08] ::1:58775 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:47:08] ::1:58776 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:47:08] ::1:58776 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 05:47:08] Collection googlecardb already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 05:47:08] ::1:58775 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 05:47:08] ::1:58775 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5741b9e6-a032-46e7-9fb4-12a7377900b9/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:16:48] ::1:58825 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:16:48] ::1:58828 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:16:48] ::1:58828 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:16:48] Collection googlecardb already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:16:48] ::1:58825 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:16:48] ::1:58825 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5741b9e6-a032-46e7-9fb4-12a7377900b9/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:17:04] Backing off send_request(...) for 0.3s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+[32mINFO[0m:     [24-11-2024 06:17:20] Backing off send_request(...) for 1.8s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+[32mINFO[0m:     [24-11-2024 06:17:37] Backing off send_request(...) for 1.7s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+[31mERROR[0m:    [24-11-2024 06:17:54] Giving up send_request(...) after 4 tries (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+[32mINFO[0m:     [24-11-2024 06:25:34] ::1:59550 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:25:34] ::1:59551 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:25:34] ::1:59551 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:25:35] Collection googlecardb already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:25:35] ::1:59550 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:25:35] ::1:59550 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5741b9e6-a032-46e7-9fb4-12a7377900b9/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:25:47] ::1:59575 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:25:47] ::1:59576 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:25:47] ::1:59576 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:25:47] Collection googlecardb already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:25:47] ::1:59575 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:25:47] ::1:59575 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/5741b9e6-a032-46e7-9fb4-12a7377900b9/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:25:50] Backing off send_request(...) for 0.0s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+[32mINFO[0m:     [24-11-2024 06:27:01] ::1:59626 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:27:01] ::1:59627 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:27:01] ::1:59627 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:27:01] ::1:59626 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:27:01] ::1:59626 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:30:42] ::1:60157 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:30:43] ::1:60158 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:30:43] ::1:60158 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:30:43] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:30:43] ::1:60157 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:30:43] ::1:60157 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:30:45] ::1:60157 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:30:45] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [24-11-2024 06:30:45] ::1:60157 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/add HTTP/1.1" 201
+[32mINFO[0m:     [24-11-2024 06:32:26] ::1:60291 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:32:26] ::1:60292 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:32:26] ::1:60292 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:32:26] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:32:26] ::1:60291 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:32:26] ::1:60291 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:36:19] ::1:60542 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:36:19] ::1:60543 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:36:19] ::1:60543 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:36:19] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:36:19] ::1:60542 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:36:19] ::1:60542 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:39:19] ::1:60740 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:39:19] ::1:60741 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:39:19] ::1:60741 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:39:19] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:39:19] ::1:60740 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:39:19] ::1:60740 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:40:23] ::1:60817 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:40:23] ::1:60818 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:40:23] ::1:60818 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:40:23] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:40:23] ::1:60817 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:40:23] ::1:60817 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:41:20] ::1:60878 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:41:20] ::1:60879 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:41:20] ::1:60879 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:41:20] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:41:20] ::1:60878 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:41:20] ::1:60878 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:44:57] ::1:61126 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:44:57] ::1:61127 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:44:57] ::1:61127 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:44:57] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:44:57] ::1:61126 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:44:57] ::1:61126 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:47:19] ::1:61281 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:47:19] ::1:61282 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:47:19] ::1:61282 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:47:19] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:47:19] ::1:61281 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:47:19] ::1:61281 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:50:36] ::1:61499 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:50:36] ::1:61500 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:50:36] ::1:61500 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:50:36] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:50:36] ::1:61499 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:50:36] ::1:61499 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:53:32] ::1:61688 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:53:32] ::1:61689 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:53:32] ::1:61689 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:53:32] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:53:32] ::1:61688 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:53:32] ::1:61688 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:54:55] ::1:61879 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:54:55] ::1:61880 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:54:55] ::1:61880 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 06:54:55] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 06:54:55] ::1:61879 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 06:54:56] ::1:61879 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:10:20] ::1:62820 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:10:20] ::1:62821 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:10:20] ::1:62821 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:10:21] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:10:21] ::1:62820 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:10:21] ::1:62820 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:11:59] ::1:62941 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:11:59] ::1:62942 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:11:59] ::1:62942 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:11:59] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:11:59] ::1:62941 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:11:59] ::1:62941 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:12:43] ::1:62994 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:12:43] ::1:62995 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:12:43] ::1:62995 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:12:43] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:12:43] ::1:62994 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:12:43] ::1:62994 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:13:11] ::1:63028 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:13:11] ::1:63029 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:13:11] ::1:63029 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:13:11] Collection Fabrics2 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:13:11] ::1:63028 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:13:11] ::1:63028 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/307a4161-acc3-439e-bd02-bbafa1263afc/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:16:55] ::1:63286 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:16:55] ::1:63287 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:16:55] ::1:63287 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:16:57] ::1:63286 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:16:57] ::1:63286 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:16:59] ::1:63286 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:16:59] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [24-11-2024 07:16:59] ::1:63286 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/add HTTP/1.1" 201
+[32mINFO[0m:     [24-11-2024 07:23:30] ::1:63697 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:23:30] ::1:63698 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:23:30] ::1:63698 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:23:30] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:23:30] ::1:63697 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:23:30] ::1:63697 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:24:46] ::1:63791 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:24:46] ::1:63792 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:24:46] ::1:63792 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:24:46] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:24:46] ::1:63791 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:24:46] ::1:63791 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:24:46] ::1:63794 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:24:47] ::1:63796 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:24:47] ::1:63796 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:24:47] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:24:47] ::1:63794 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:24:47] ::1:63794 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:26:27] ::1:63904 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:26:28] ::1:63905 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:26:28] ::1:63905 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:26:28] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:26:28] ::1:63904 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:26:28] ::1:63904 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:26:33] ::1:63914 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:26:33] ::1:63915 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:26:33] ::1:63915 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:26:33] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:26:33] ::1:63914 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:26:33] ::1:63914 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:28:40] ::1:64069 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:28:40] ::1:64070 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:28:40] ::1:64070 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:28:40] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:28:41] ::1:64069 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:28:41] ::1:64069 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:31:35] ::1:64246 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:31:35] ::1:64247 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:31:35] ::1:64247 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:31:35] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:31:35] ::1:64246 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:31:35] ::1:64246 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:36:30] ::1:64596 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:36:30] ::1:64597 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:36:30] ::1:64597 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:36:30] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:36:30] ::1:64596 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:36:30] ::1:64596 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:44:49] ::1:65141 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:44:50] ::1:65142 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:44:50] ::1:65142 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:44:50] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:44:50] ::1:65141 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:44:50] ::1:65141 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:45:25] ::1:65183 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:45:25] ::1:65184 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:45:25] ::1:65184 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:45:25] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:45:25] ::1:65183 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:45:25] ::1:65183 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:46:37] ::1:65261 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:46:37] ::1:65262 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:46:37] ::1:65262 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:46:37] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:46:37] ::1:65261 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:46:37] ::1:65261 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:48:33] ::1:65392 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:48:33] ::1:65393 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:48:33] ::1:65393 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:48:33] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:48:33] ::1:65392 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:48:33] ::1:65392 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:51:16] ::1:49186 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:51:16] ::1:49187 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:51:16] ::1:49187 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:51:16] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:51:16] ::1:49186 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:51:16] ::1:49186 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:58:08] ::1:49622 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:58:08] ::1:49623 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:58:08] ::1:49623 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:58:08] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:58:08] ::1:49622 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:58:08] ::1:49622 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:58:33] ::1:49656 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:58:33] ::1:49657 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:58:33] ::1:49657 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 07:58:33] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 07:58:33] ::1:49656 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 07:58:33] ::1:49656 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:01:21] ::1:49837 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:01:21] ::1:49838 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:01:21] ::1:49838 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 08:01:21] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 08:01:21] ::1:49837 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:01:21] ::1:49837 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:02:11] ::1:49901 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:02:11] ::1:49902 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:02:11] ::1:49902 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 08:02:11] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 08:02:11] ::1:49901 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:02:11] ::1:49901 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:03:55] ::1:50084 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:03:55] ::1:50085 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:03:55] ::1:50085 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 08:03:55] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 08:03:55] ::1:50084 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:03:55] ::1:50084 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:03:57] ::1:50088 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:03:57] ::1:50089 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:03:57] ::1:50089 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 08:03:57] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 08:03:57] ::1:50088 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:03:57] ::1:50088 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:04:02] ::1:50097 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:04:02] ::1:50098 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:04:02] ::1:50098 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [24-11-2024 08:04:02] Collection Fabrics3 already exists, returning existing collection.
+[32mINFO[0m:     [24-11-2024 08:04:02] ::1:50097 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [24-11-2024 08:04:02] ::1:50097 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/d46f11b9-81df-4340-a10b-19539b58b9c5/get HTTP/1.1" 200
